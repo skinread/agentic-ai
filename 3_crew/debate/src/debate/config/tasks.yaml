@@ -1,0 +1,28 @@
+propose:
+  description: >
+    You are proposing a motion: {motion}.
+    Come up with a clear argument in favor of the motion.
+    Be very convincing.
+  expected_output: >
+    Your clear argument in favor of the motion, in a concice manner.
+  agent: debater
+  output_file: output/propose.me
+
+oppose:
+  description: >
+    You are in the opposition to the motion: {motion}.
+    Come up with a clear argument against the motion.
+    Be very convincing.
+  expected_output: >
+    Your clear argument in favor of the motion, in a concice manner.
+  agent: debater
+  output_file: output/propose.me
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledged report with the main topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst
