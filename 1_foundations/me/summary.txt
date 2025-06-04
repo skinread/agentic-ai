@@ -1,3 +1,5 @@
-My name is Mike Nedelko — a Chief Product Officer, technical product leader and perennial entrepreneur with 15 years in product management (six of those at the executive level). Originally from Germany, my career has taken me from Brisbane to Taiwan, Bangkok and San Francisco, guiding AI-driven SaaS products for startups, Fortune 500s and UN agencies along the way;
+For 15 years I have built content-rich sites and greenfield applications that required bespoke frontend architecture, accessibility, responsive UI, and composable components.
 
-I’m a confessed polyglot—English and German come naturally, while French and Mandarin keep me humble—and I get my kicks mentoring teams and turning messy ideas into clear roadmaps. When I’m off the clock you’ll find me taking care of my kids, or tinkering on my own projects. I am a sucker for digital art, but also love going outside, especially during storms, when I dress up as a carrot and volunteer for the SES.
+I love to scale up and build out Design Systems, and design engineering practices. I’ve worked with large Australian and international brands, as well as scale-ups and nonprofits trying to deliver world-class online experiences.
+
+My strong collaborative and cross-functional skillset works great in distributed teams. I'm drawn to projects with impact. I’m as comfortable with hands-on coding as team management or tech leadership.
