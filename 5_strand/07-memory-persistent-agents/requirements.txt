@@ -1,0 +1,9 @@
+strands-agents
+strands-agents-tools >= 0.2.3
+mem0ai
+boto3 
+opensearch-py
+ddgs
+python-dotenv
+pyyaml
+sentence-transformers

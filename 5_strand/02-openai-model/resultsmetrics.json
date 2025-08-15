@@ -1,0 +1,11 @@
+tool_metrics={'current_weather': ToolMetrics(tool={'toolUseId': 'call_YeOosVsvM2PbgXCex98Im7Ak', 'name': 'current_weather', 'input': {'city': 'Seattle'
+        }
+    }, call_count=1, success_count=1, error_count=0, total_time=0.0006103515625), 'current_time': ToolMetrics(tool={'toolUseId': 'call_79sqcBrpkWepCAdU5jYbmtl5', 'name': 'current_time', 'input': {'timezone': 'America/Los_Angeles'
+        }
+    }, call_count=1, success_count=1, error_count=0, total_time=0.036875009536743164)
+}, cycle_durations=[
+    1.0975217819213867
+], traces=[<strands.telemetry.metrics.Trace object at 0x000002282EAB78A0>, <strands.telemetry.metrics.Trace object at 0x000002282EBA5130>
+], accumulated_usage={'inputTokens': 279, 'outputTokens': 67, 'totalTokens': 346
+}, accumulated_metrics={'latencyMs': 0
+}

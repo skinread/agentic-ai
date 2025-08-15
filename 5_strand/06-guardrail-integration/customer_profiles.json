@@ -1,0 +1,435 @@
+{
+  "CUST100": {
+    "customer_id": "CUST100",
+    "name": "Customer 1",
+    "email": "customer1@example.com",
+    "country": "USA",
+    "state": "California",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1000",
+        "product_name": "SolarPanel Pro",
+        "product_type": "panel",
+        "price": 1200,
+        "quantity": 1,
+        "purchase_date": "2025-01-01T10:42:48.613846"
+      }
+    ],
+    "support_tickets": [],
+    "preferences": {
+      "contact_preference": "email",
+      "newsletter": true,
+      "maintenance_reminder": true
+    },
+    "created_at": "2025-08-14T10:42:48.613885",
+    "updated_at": "2025-08-14T10:42:48.613887"
+  },
+  "CUST101": {
+    "customer_id": "CUST101",
+    "name": "Customer 2",
+    "email": "customer2@example.com",
+    "country": "Canada",
+    "state": "Quebec",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1010",
+        "product_name": "SolarPanel Lite",
+        "product_type": "panel",
+        "price": 800,
+        "quantity": 1,
+        "purchase_date": "2025-02-01T10:42:48.614522"
+      },
+      {
+        "purchase_id": "PUR1011",
+        "product_name": "PowerWall Battery",
+        "product_type": "battery",
+        "price": 5000,
+        "quantity": 2,
+        "purchase_date": "2025-03-02T10:42:48.614530"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1010",
+        "type": "Maintenance",
+        "status": "closed",
+        "subject": "Maintenance issue with SolarPanel Lite",
+        "created_at": "2025-02-01T10:42:48.614534",
+        "last_updated": "2025-08-14T10:42:48.614538"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "phone",
+      "newsletter": false,
+      "maintenance_reminder": false
+    },
+    "created_at": "2025-08-14T10:42:48.614548",
+    "updated_at": "2025-08-14T10:42:48.614549"
+  },
+  "CUST102": {
+    "customer_id": "CUST102",
+    "name": "Customer 3",
+    "email": "customer3@example.com",
+    "country": "Australia",
+    "state": "Queensland",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1020",
+        "product_name": "PowerWall Battery",
+        "product_type": "battery",
+        "price": 5000,
+        "quantity": 1,
+        "purchase_date": "2025-03-01T10:42:48.615529"
+      },
+      {
+        "purchase_id": "PUR1021",
+        "product_name": "SolarInverter X1",
+        "product_type": "inverter",
+        "price": 1500,
+        "quantity": 2,
+        "purchase_date": "2025-04-03T10:42:48.615539"
+      },
+      {
+        "purchase_id": "PUR1022",
+        "product_name": "EcoCharge Controller",
+        "product_type": "controller",
+        "price": 300,
+        "quantity": 1,
+        "purchase_date": "2025-05-05T10:42:48.615541"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1020",
+        "type": "Performance",
+        "status": "closed",
+        "subject": "Performance issue with PowerWall Battery",
+        "created_at": "2025-03-01T10:42:48.615545",
+        "last_updated": "2025-08-14T10:42:48.615549"
+      },
+      {
+        "ticket_id": "TKT1021",
+        "type": "Billing",
+        "status": "open",
+        "subject": "Billing issue with SolarInverter X1",
+        "created_at": "2025-04-03T10:42:48.615551",
+        "last_updated": "2025-08-14T10:42:48.615553"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "email",
+      "newsletter": false,
+      "maintenance_reminder": true
+    },
+    "created_at": "2025-08-14T10:42:48.615559",
+    "updated_at": "2025-08-14T10:42:48.615560"
+  },
+  "CUST103": {
+    "customer_id": "CUST103",
+    "name": "Customer 4",
+    "email": "customer4@example.com",
+    "country": "UK",
+    "state": "England",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1030",
+        "product_name": "SolarInverter X1",
+        "product_type": "inverter",
+        "price": 1500,
+        "quantity": 1,
+        "purchase_date": "2025-04-01T10:42:48.616752"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1030",
+        "type": "Billing",
+        "status": "closed",
+        "subject": "Billing issue with SolarInverter X1",
+        "created_at": "2025-04-01T10:42:48.616765",
+        "last_updated": "2025-08-14T10:42:48.616768"
+      },
+      {
+        "ticket_id": "TKT1031",
+        "type": "Technical",
+        "status": "open",
+        "subject": "Technical issue with EcoCharge Controller",
+        "created_at": "2025-05-04T10:42:48.616770",
+        "last_updated": "2025-08-14T10:42:48.616773"
+      },
+      {
+        "ticket_id": "TKT1032",
+        "type": "Installation",
+        "status": "closed",
+        "subject": "Installation issue with SolarPanel Pro",
+        "created_at": "2025-06-07T10:42:48.616775",
+        "last_updated": "2025-08-14T10:42:48.616777"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "phone",
+      "newsletter": true,
+      "maintenance_reminder": false
+    },
+    "created_at": "2025-08-14T10:42:48.616787",
+    "updated_at": "2025-08-14T10:42:48.616788"
+  },
+  "CUST104": {
+    "customer_id": "CUST104",
+    "name": "Customer 5",
+    "email": "customer5@example.com",
+    "country": "Germany",
+    "state": "Berlin",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1040",
+        "product_name": "EcoCharge Controller",
+        "product_type": "controller",
+        "price": 300,
+        "quantity": 1,
+        "purchase_date": "2025-05-01T10:42:48.617845"
+      },
+      {
+        "purchase_id": "PUR1041",
+        "product_name": "SolarPanel Pro",
+        "product_type": "panel",
+        "price": 1200,
+        "quantity": 2,
+        "purchase_date": "2025-06-05T10:42:48.617857"
+      }
+    ],
+    "support_tickets": [],
+    "preferences": {
+      "contact_preference": "email",
+      "newsletter": false,
+      "maintenance_reminder": true
+    },
+    "created_at": "2025-08-14T10:42:48.617870",
+    "updated_at": "2025-08-14T10:42:48.617872"
+  },
+  "CUST105": {
+    "customer_id": "CUST105",
+    "name": "Customer 6",
+    "email": "customer6@example.com",
+    "country": "USA",
+    "state": "California",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1050",
+        "product_name": "SolarPanel Pro",
+        "product_type": "panel",
+        "price": 1200,
+        "quantity": 1,
+        "purchase_date": "2025-06-01T10:42:48.618972"
+      },
+      {
+        "purchase_id": "PUR1051",
+        "product_name": "SolarPanel Lite",
+        "product_type": "panel",
+        "price": 800,
+        "quantity": 2,
+        "purchase_date": "2025-07-06T10:42:48.618981"
+      },
+      {
+        "purchase_id": "PUR1052",
+        "product_name": "PowerWall Battery",
+        "product_type": "battery",
+        "price": 5000,
+        "quantity": 1,
+        "purchase_date": "2025-08-11T10:42:48.618984"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1050",
+        "type": "Installation",
+        "status": "closed",
+        "subject": "Installation issue with SolarPanel Pro",
+        "created_at": "2025-06-01T10:42:48.618987",
+        "last_updated": "2025-08-14T10:42:48.618989"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "phone",
+      "newsletter": false,
+      "maintenance_reminder": false
+    },
+    "created_at": "2025-08-14T10:42:48.618996",
+    "updated_at": "2025-08-14T10:42:48.618998"
+  },
+  "CUST106": {
+    "customer_id": "CUST106",
+    "name": "Customer 7",
+    "email": "customer7@example.com",
+    "country": "Canada",
+    "state": "British Columbia",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1060",
+        "product_name": "SolarPanel Lite",
+        "product_type": "panel",
+        "price": 800,
+        "quantity": 1,
+        "purchase_date": "2025-07-01T10:42:48.620137"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1060",
+        "type": "Maintenance",
+        "status": "closed",
+        "subject": "Maintenance issue with SolarPanel Lite",
+        "created_at": "2025-07-01T10:42:48.620144",
+        "last_updated": "2025-08-14T10:42:48.620147"
+      },
+      {
+        "ticket_id": "TKT1061",
+        "type": "Performance",
+        "status": "open",
+        "subject": "Performance issue with PowerWall Battery",
+        "created_at": "2025-08-07T10:42:48.620149",
+        "last_updated": "2025-08-14T10:42:48.620151"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "email",
+      "newsletter": true,
+      "maintenance_reminder": true
+    },
+    "created_at": "2025-08-14T10:42:48.620157",
+    "updated_at": "2025-08-14T10:42:48.620158"
+  },
+  "CUST107": {
+    "customer_id": "CUST107",
+    "name": "Customer 8",
+    "email": "customer8@example.com",
+    "country": "Australia",
+    "state": "Victoria",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1070",
+        "product_name": "PowerWall Battery",
+        "product_type": "battery",
+        "price": 5000,
+        "quantity": 1,
+        "purchase_date": "2025-08-01T10:42:48.621660"
+      },
+      {
+        "purchase_id": "PUR1071",
+        "product_name": "SolarInverter X1",
+        "product_type": "inverter",
+        "price": 1500,
+        "quantity": 2,
+        "purchase_date": "2025-09-08T10:42:48.621678"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1070",
+        "type": "Performance",
+        "status": "closed",
+        "subject": "Performance issue with PowerWall Battery",
+        "created_at": "2025-08-01T10:42:48.621683",
+        "last_updated": "2025-08-14T10:42:48.621686"
+      },
+      {
+        "ticket_id": "TKT1071",
+        "type": "Billing",
+        "status": "open",
+        "subject": "Billing issue with SolarInverter X1",
+        "created_at": "2025-09-08T10:42:48.621689",
+        "last_updated": "2025-08-14T10:42:48.621693"
+      },
+      {
+        "ticket_id": "TKT1072",
+        "type": "Technical",
+        "status": "closed",
+        "subject": "Technical issue with EcoCharge Controller",
+        "created_at": "2025-10-15T10:42:48.621696",
+        "last_updated": "2025-08-14T10:42:48.621701"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "phone",
+      "newsletter": false,
+      "maintenance_reminder": false
+    },
+    "created_at": "2025-08-14T10:42:48.621714",
+    "updated_at": "2025-08-14T10:42:48.621716"
+  },
+  "CUST108": {
+    "customer_id": "CUST108",
+    "name": "Customer 9",
+    "email": "customer9@example.com",
+    "country": "UK",
+    "state": "Wales",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1080",
+        "product_name": "SolarInverter X1",
+        "product_type": "inverter",
+        "price": 1500,
+        "quantity": 1,
+        "purchase_date": "2025-09-01T10:42:48.624300"
+      },
+      {
+        "purchase_id": "PUR1081",
+        "product_name": "EcoCharge Controller",
+        "product_type": "controller",
+        "price": 300,
+        "quantity": 2,
+        "purchase_date": "2025-10-09T10:42:48.624313"
+      },
+      {
+        "purchase_id": "PUR1082",
+        "product_name": "SolarPanel Pro",
+        "product_type": "panel",
+        "price": 1200,
+        "quantity": 1,
+        "purchase_date": "2025-11-17T10:42:48.624315"
+      }
+    ],
+    "support_tickets": [],
+    "preferences": {
+      "contact_preference": "email",
+      "newsletter": false,
+      "maintenance_reminder": true
+    },
+    "created_at": "2025-08-14T10:42:48.624326",
+    "updated_at": "2025-08-14T10:42:48.624327"
+  },
+  "CUST109": {
+    "customer_id": "CUST109",
+    "name": "Customer 10",
+    "email": "customer10@example.com",
+    "country": "Germany",
+    "state": "Bavaria",
+    "purchase_history": [
+      {
+        "purchase_id": "PUR1090",
+        "product_name": "EcoCharge Controller",
+        "product_type": "controller",
+        "price": 300,
+        "quantity": 1,
+        "purchase_date": "2025-10-01T10:42:48.626091"
+      }
+    ],
+    "support_tickets": [
+      {
+        "ticket_id": "TKT1090",
+        "type": "Technical",
+        "status": "closed",
+        "subject": "Technical issue with EcoCharge Controller",
+        "created_at": "2025-10-01T10:42:48.626105",
+        "last_updated": "2025-08-14T10:42:48.626108"
+      }
+    ],
+    "preferences": {
+      "contact_preference": "phone",
+      "newsletter": true,
+      "maintenance_reminder": false
+    },
+    "created_at": "2025-08-14T10:42:48.626116",
+    "updated_at": "2025-08-14T10:42:48.626118"
+  }
+}
